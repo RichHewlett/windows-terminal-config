@@ -48,52 +48,61 @@
         "list": 
         [
             {
-                "acrylicOpacity": 0.80000000000000004,
+                "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
                 "fontSize": 10,
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell",
-                "useAcrylic": true
+                "useAcrylic": true,
+                "acrylicOpacity": 0.8
             },
             {
-                "acrylicOpacity": 0.80000000000000004,
+                "name": "Command Prompt",
                 "commandline": "cmd.exe",
                 "fontSize": 10,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Command Prompt",
-                "useAcrylic": true
+                "useAcrylic": true,
+                "acrylicOpacity": 0.8
             },
             {
-                "acrylicOpacity": 0.81000000000000005,
+                "name": "Azure Cloud Shell",
                 "fontSize": 10,
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
-                "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure",
-                "useAcrylic": true
+                "useAcrylic": true,
+                "acrylicOpacity": 0.8
             },
             {
-                "acrylicOpacity": 0.80000000000000004,
+                "name": "Ubuntu-20.04",
                 "fontSize": 10,
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
-                "name": "Ubuntu-20.04",
                 "padding": "8",
                 "source": "Windows.Terminal.Wsl",
-                "useAcrylic": true
+                "useAcrylic": true,
+                "acrylicOpacity": 0.8
             },
             {
-                "acrylicOpacity": 0.80000000000000004,
+                "name": "GitBash",
                 "closeOnExit": "always",
                 "commandline": "C:\\Program Files\\Git\\bin\\bash.exe -I -l",
                 "fontSize": 10,
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-                "name": "GitBash",
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "GitBash",
-                "useAcrylic": true
+                "useAcrylic": true,
+                "acrylicOpacity": 0.8
+            },
+            {
+                "name": "Developer Command Prompt for VS 2019",
+                "commandline": "%comspec%  /k \"%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\VsDevCmd.bat\"",
+                "icon": "%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\Assets\\VisualStudio.70x70.contrast-standard_scale-180.png",
+                "fontSize": 10,
+                "useAcrylic": true,
+                "acrylicOpacity": 0.8,
+                "tabTitle": "Dev Cmd VS 2019"
             }
         ]
     },
