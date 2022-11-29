@@ -87,7 +87,7 @@
             {
                 "name": "GitBash",
                 "closeOnExit": "always",
-                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe -I -l",
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe -i -l",
                 "fontSize": 10,
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
                 "startingDirectory": "%USERPROFILE%",
